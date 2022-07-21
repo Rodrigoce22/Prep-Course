@@ -120,7 +120,8 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return (num)**(exponent)
+  var num=Math.pow(num, exponent)
+  return num;
 }
 
 function redondearNumero(num) {
@@ -132,7 +133,7 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return math.ceil(num);
+  return Math.ceil(num)
 }
 
 function numeroRandom() {
@@ -146,7 +147,7 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  return math.sign(numero)
+  return 
 }
 
 function agregarSimboloExclamacion(str) {
