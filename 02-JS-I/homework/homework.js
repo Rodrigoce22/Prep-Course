@@ -232,9 +232,9 @@ function esVocal(letra){
     return "dato incorrecto"
   }
   if(letra==="a" || letra==="e"||letra==="i"||letra==="o"||letra==="u")
-  return "es una vocal"}
+  return ("es una vocal")}
   {
-  return "dato incorrecto"
+  return ("dato incorrecto")
 }
 
 
