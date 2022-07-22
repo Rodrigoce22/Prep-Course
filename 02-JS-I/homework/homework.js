@@ -1,5 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
+const EleventyServe = require("@11ty/eleventy/src/EleventyServe");
+
 // Crea una variable "string", puede contener lo que quieras:
 const nuevaString = "holaa";
 
@@ -60,7 +62,10 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  return x=y;
+  if (x=y)
+  return true;
+  else 
+  return false
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -77,34 +82,43 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  return num < 90;
+  if (num < 90)
+    return true;
+    else;
+    return false
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  return num > 50;
+  if (num > 50)
+  return true;
+  else
+    return false
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return x % y;
+  return (x % y);
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  return (num%2)==0;
+  if (num%2==0)
+  return true;
+  else
+  return false
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  return (num%2)==1;
+  return num%2==1
 }
 
 function elevarAlCuadrado(num) {
@@ -150,11 +164,11 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if (numero>0)
-   return "es postivo";  
-  else if (numero<0);  
-   return "es negativo";
-   else if (numero ===0);
+    if (numero>0) {
+      return "es postivo";
+    } else {(numero<0)
+      return "es negativo"
+    } (numero === 0);
    return "false";
 }
 
