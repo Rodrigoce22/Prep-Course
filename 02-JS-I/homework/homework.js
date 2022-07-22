@@ -65,7 +65,7 @@ function sonIguales(x, y) {
   if (x=y)
   return true;
   else 
-  return false
+  return false;
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -75,7 +75,7 @@ function tienenMismaLongitud(str1, str2) {
   if (str1.length === str2.length)
     return true;
   else
-    return false
+    return false;
 }
 
 function menosQueNoventa(num) {
@@ -85,7 +85,7 @@ function menosQueNoventa(num) {
   if (num < 90)
     return true;
     else;
-    return false
+    return false;
 }
 
 function mayorQueCincuenta(num) {
@@ -95,7 +95,7 @@ function mayorQueCincuenta(num) {
   if (num > 50)
   return true;
   else
-    return false
+    return false;
 }
 
 function obtenerResto(x, y) {
@@ -111,7 +111,7 @@ function esPar(num) {
   if (num%2==0)
   return true;
   else
-  return false
+  return false;
 }
 
 function esImpar(num) {
@@ -150,13 +150,13 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return Math.ceil(num)
+  return Math.ceil(num);
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return Math.random()
+  return Math.random();
 }
 
 function esPositivo(numero) {
@@ -176,7 +176,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return (str+("!"))
+  return (str+("!"));
 }
 
 function combinarNombres(nombre, apellido) {
@@ -229,12 +229,11 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if (letra.length> 1){
-    return "dato incorrecto"
+    return "Dato incorrecto";
   }
   if(letra==="a" || letra==="e"||letra==="i"||letra==="o"||letra==="u")
-  return ("es una vocal")
-  else if (letra.length !== string)
-  return "dato incorrecto"
+  return ("Es vocal");
+  return "Dato incorrecto";
 }
 
 
