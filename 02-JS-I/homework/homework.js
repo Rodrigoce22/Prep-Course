@@ -62,10 +62,8 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x=y)
-  return false;
-  else 
-  return true;
+  var x=y
+  return true&&false;
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -190,7 +188,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  let obtenerSaludo = "Hola" + nombre;
+  let obtenerSaludo = "Hola" + ("")+nombre;
   return obtenerSaludo;
 }
 
