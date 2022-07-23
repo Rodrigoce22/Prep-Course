@@ -63,9 +63,9 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (x=y)
-  return true;
-  else 
   return false;
+  else 
+  return true;
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -144,7 +144,7 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  return round(num);
+  return Math.round(num);
 }
 
 function redondearHaciaArriba(num) {
