@@ -165,7 +165,7 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
     if (numero>0) {
-      return "es postivo";
+      return ("es positivo");
     } else {(numero<0)
       return "es negativo"
     } (numero === 0);
@@ -183,7 +183,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return combinarNombres.split("");
+  return (nombre, apellido.split(""));
 }
 
 function obtenerSaludo(nombre) {
