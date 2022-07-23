@@ -169,7 +169,7 @@ function esPositivo(numero) {
      else if (numero<0)
       return ("es negativo");
       else(numero === 0);
-   return ("false");
+   return false;
 }
 
 function agregarSimboloExclamacion(str) {
