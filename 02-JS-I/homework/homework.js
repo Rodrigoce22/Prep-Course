@@ -218,7 +218,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  
+  return euro * 1.20
 }
 
 
@@ -231,9 +231,9 @@ function esVocal(letra){
   if (letra.length> 1)
     return "Dato incorrecto";
   }
-  if(letra==="a" || letra==="e"||letra==="i"||letra==="o"||letra==="u"){
-    return "Es vocal"
-  };
+  if(letra==="a" || letra==="e"||letra==="i"||letra==="o"||letra==="u")
+    return "Es vocal";
+    else if ( letra!=="a" || letra!=="e"|| letra!=="i"|| letra!=="o"||letra !=="u")
   { return "Dato incorrecto";
 }
 
