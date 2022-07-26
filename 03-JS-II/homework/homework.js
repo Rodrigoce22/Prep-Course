@@ -159,7 +159,7 @@ function esPrimo(numero) {
   return false;}
   if(numero===2){
   return true;}
-  for(var numero=2 ; i<numero; i++)
+  for(var i=2 ; i<numero; i++)
     if (numero % i ===0){
       return  false;}
       {
