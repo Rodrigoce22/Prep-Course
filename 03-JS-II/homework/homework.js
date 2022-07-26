@@ -119,7 +119,7 @@ function fizzBuzz(numero) {
   return "fizz";}
   else if (numero%5===0){
   return "buzz";}
-  else if (numero%3===0)  (numero%5===0)
+  else if (numero%15===0)//15 es el primer multiplo comun entre 3 y 5
   return "fizzbuzz";
   {return numero;
   }
@@ -187,7 +187,7 @@ function tablaDelSeis(){
   //Escribe tu código aquí   
   let arraytablaDelSeis=[]//contenedor
 for (let i=0 ; i<11 ;i++){
-  arraytablaDelSeis.push(6*i)} //realiza 10 veces 6 
+  arraytablaDelSeis.push(6*i)} //realiza 10 veces 6 (11)
 {return arraytablaDelSeis}
 }
 
@@ -205,11 +205,9 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-  let doWhile=" ";
-  let i=0;
-  do {i=i+1; numero+i}
-  while (i<8);{
-  return numero;}
+var doWhile(numero)
+do{
+
 }
 
 
