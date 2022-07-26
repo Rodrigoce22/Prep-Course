@@ -166,7 +166,9 @@ function esPrimo(numero) {
   return true;
     }
   //i pone la variable en 0 y ++lo devuelve a su valor actual +1
-
+  // for bucle 
+  //var definomos una variable dice que va a ir de i hasta 2, y i va a ir hasta el numero ej:5, i++ dice uno en uno
+//seria la variable numero, mas numero + la i++(uno en uno)=
 }
 
 function esVerdadero(valor){
@@ -183,12 +185,19 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  
+  let arraytablaDelSeis=[]//contenedor
+for (let i=0 ; i<1 ;i++){
+  arraytablaDelSeis.push(6*i)}
+{return arraytablaDelSeis}
 }
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
+  if (numero>99){
+  return "true";}
+  else numero<1000;{
+  return "false";}
   
 }
 
@@ -196,6 +205,11 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+  let doWhile=" ";
+  let i=0;
+  do {i=i+1; numero+i}
+  while (i<8);{
+  return numero;}
 }
 
 
