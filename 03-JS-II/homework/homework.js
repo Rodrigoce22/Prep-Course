@@ -206,7 +206,7 @@ function doWhile(numero) {
   //Usar el bucle do ... while.
 var a =numero;
 var i= 0;
-do {i=i+numero;a= a + 5;}
+do {i=i+1;a= a + 5;}
 while (i<8); //Hasta un limite de 8 veces 
 return a;
 }
