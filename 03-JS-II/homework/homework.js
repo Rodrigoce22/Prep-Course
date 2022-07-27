@@ -115,14 +115,14 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
-  if (numero%3===0){
-  return "fizz";}
-  else if (numero%5===0){
-  return "buzz";}
-  else if (numero%15===0)//15 es el primer multiplo comun entre 3 y 5
-  return "fizzbuzz";
-  {return numero;
-  }
+  
+  if (numero % 15 === 0)
+  return "fizzbuzz"; // 15 es el primer multiplo comun entre 3 y 5 
+  if (numero%3===0)
+  return "fizz";
+  if (numero%5===0)
+  return "buzz";
+  return numero;
 }
 
 function operadoresLogicos(num1, num2, num3) {
@@ -194,10 +194,9 @@ for (let i=0 ; i<11 ;i++){
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  if (numero>99){
-  return "true";}
-  else numero<1000;{
-  return "false";}
+  if (numero>99 && numero<1000){
+  return true}
+  return false
   
 }
 
@@ -205,7 +204,11 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-
+var a =numero;
+var i= 0;
+do {i=i+numero;a= a + 5;}
+while (i<8); //Hasta un limite de 8 veces 
+return a;
 }
 
 
