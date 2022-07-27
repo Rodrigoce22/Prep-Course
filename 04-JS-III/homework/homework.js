@@ -28,7 +28,7 @@ function incrementarPorUno(array) {
   // Tu código:
   var narray=[];
   for(var i=0; i<array.length;i++){
-    narray[i]=array[i]=1;}
+    narray[i]=array[i]+1;}
     return narray;
 }
 
@@ -47,7 +47,7 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
-  array[array.unshift]=elemento;
+  array.unshift(elemento);
   return array
 }
 
