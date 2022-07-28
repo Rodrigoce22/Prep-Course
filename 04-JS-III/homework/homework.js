@@ -67,7 +67,7 @@ function arrayContiene(array, elemento) {
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
   for(var i=0;i<array.length;i++){
-  if(array[i]===elemento);{
+  if(array[i]===elemento){
     return true;
     }
   }
@@ -79,7 +79,7 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
-  suma=0;
+  var suma=0;
   for(var i=0;i<numeros.lenght;i++);{
   suma=suma+numeros[i];}
   {
