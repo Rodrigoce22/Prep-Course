@@ -66,12 +66,12 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
-  for(var i=0;i<array.length;i++);{
+  for(var i=0;i<array.length;i++);
   if(array[i]===elemento);{
     return true;
     }
-  }
-  return false;
+    {
+  return false;}
 }
 
 
@@ -79,11 +79,11 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
-  var num=[]
-  for(var i=0;i+array.lenght;i++);{
-  if(num+numeros);{
-  return num;}
-}
+  suma=0;
+  for(var i=0;numeros.lenght;i++);{
+  suma=suma+numeros[i];}
+  {
+  return suma;}
 }
 
 
