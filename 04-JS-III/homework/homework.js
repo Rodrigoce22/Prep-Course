@@ -80,10 +80,10 @@ function agregarNumeros(numeros) {
   // Suma todos los enteros y devuelve el valor
   // Tu código:
   var suma=0;
-  for(var i=0;i<numeros.lenght;i++);{
-  suma=suma+numeros[i];}
-  {
-  return suma;}
+  for(var i=0;i<numeros.lenght;i++){
+  suma=suma+numeros[i];
+}
+  return suma;
 }
 
 
