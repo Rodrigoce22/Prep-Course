@@ -100,11 +100,13 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-var numerosM=0
-for(var i=0;i>numeros.length;i++){
-NumeroM=numeros.length[i];
-}
-return numerosM;
+  var maximo = numeros[0];
+  for(var i = 1; i < numeros.length; i++) {
+    if(numeros[i] > maximo) { 
+      maximo = numeros[i];
+    }
+  }
+  return maximo;
 }
 
 
@@ -112,14 +114,12 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
-  var numeros = [];
-  var multiplicar = 1;
-for (var i = 0; i < num.length; i++){
-  var per = num;
-  numeros.push(per);
-   multiplicar = multiplicar * numeros[i];
-}
-return multiplicar;
+  if(arguments.length < 1) return 0;
+  var total = 1;
+  for(var i = 0; i < arguments.length; i++) {
+    total = total * arguments[i];
+  }
+  return total;
 
 }
 
@@ -127,13 +127,13 @@ return multiplicar;
 function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
-    let cont = [];
-    for (let i = 0; i < array.length; i++) {
-      if (array[i] > 18) { // Aquí es mayor a 18, no mayor o igual
-        cont.push(array[i]);
-      }
+  let contador = 0;
+  for (let i = 0; i < arreglo.length ; i++) {
+    if(arreglo[i] > 19){
+      contador++
     }
-    return cont;
+  }
+  return contador
 }
 
 
@@ -142,22 +142,10 @@ function diaDeLaSemana(numeroDeDia) {
   //Realiza una función que dado el número del día de la semana, retorne: Es fin de semana
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí   
-  var pregunta = ' ';
-switch (numeroDeDia) {
-  case 1 : 
-    pregunta = 'Es Domingo';
-    break;
-  case 2 :
-  case 3 : 
-  case 4 : 
-  case 5 : 
-  case 6 : 
-    pregunta = "Es dia laboral";
-    break;
-  case 7 : 
-    pregunta =  "Es Sabado";
-  
-}
+  if(numeroDeDia === 1 || numeroDeDia === 7 ){
+    return "Es fin de semana"
+  }
+  return "Es dia Laboral"
 } 
 
 
